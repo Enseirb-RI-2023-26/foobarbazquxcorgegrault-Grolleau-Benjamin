@@ -14,11 +14,35 @@ public class Foo {
         this.qux = new Qux();
     }
 
+    public Corge getCorge() {
+        return this.corge;
+    }
+
+    public void setCorge(Corge corge) {
+        this.corge = corge;
+    }
+
+    public Bar getBar() {
+        return this.bar;
+    }
+
     public void addBaz(Baz baz) {
         this.bazes.add(baz);
     }
 
+    public ArrayList<Baz> getBazes() {
+        return this.bazes;
+    }
+
+    public Qux getQux() {
+        return this.qux;
+    }
+
     public void addGrault() {
         this.graults.add(new Grault(this));
+    }
+
+    public ArrayList<Grault> getGraults() {
+        return this.graults;
     }
 }
