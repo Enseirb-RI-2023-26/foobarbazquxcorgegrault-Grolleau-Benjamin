@@ -19,6 +19,7 @@ public class Foo {
     }
 
     public void setCorge(Corge corge) {
+        this.corge.setFoo(null);
         this.corge = corge;
     }
 
