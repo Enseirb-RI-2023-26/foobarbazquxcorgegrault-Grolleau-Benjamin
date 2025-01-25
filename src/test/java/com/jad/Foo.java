@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Foo {
     private Bar bar;
-    private ArrayList<Baz> bazes = new ArrayList<>();
+    private ArrayList<Baz> bazs = new ArrayList<>();
     private Qux qux;
     private Corge corge;
     private ArrayList<Grault> graults = new ArrayList<>();
@@ -27,11 +27,11 @@ public class Foo {
     }
 
     public void addBaz(Baz baz) {
-        this.bazes.add(baz);
+        this.bazs.add(baz);
     }
 
-    public ArrayList<Baz> getBazes() {
-        return this.bazes;
+    public ArrayList<Baz> getBazs() {
+        return this.bazs;
     }
 
     public Qux getQux() {
